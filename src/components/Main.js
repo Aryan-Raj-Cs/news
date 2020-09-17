@@ -96,7 +96,7 @@ const newheading=mheading.map(val=>{
             val.star=1;
             let s=ct+1;
             setCt(s);
-
+            favnew.push(val)
         }
         return val;
     }
@@ -108,7 +108,8 @@ const newheading=mheading.map(val=>{
 
 setMheading(newheading)
 setFav((prev)=>{
-  return  [...prev,...newheading]
+    
+  return  [...prev,...favnew]
 
 
 })

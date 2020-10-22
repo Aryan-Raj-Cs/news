@@ -29,3 +29,7 @@
   width:60%;
 }
 .hv:hover {background-color:blue;}
+
+body {
+ box:border-box 
+}

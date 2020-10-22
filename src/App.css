@@ -31,5 +31,6 @@
 .hv:hover {background-color:blue;}
 
 body {
- box:border-box 
+ box:border-box;
+  size:16px;
 }
